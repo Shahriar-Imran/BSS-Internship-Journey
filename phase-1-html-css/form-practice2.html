@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <h4>Fill out the form carefully to create your account</h4>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="fullname">Full Name*</label><br>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required>
+                </div>
+                <div>
+                    <label for="gender">Gender*</label><br>
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <label for="email">Email Address*</label><br>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+
+                </div>
+                <div>
+                    <label for="address">Address*</label><br>
+                    <textarea name="address" id="address"></textarea>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth*</label><br>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div>
+                    <label for="photo">Profile Picture</label><br>
+                    <input type="file" name="photo" id="photo">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Academic Information</legend>
+                <div>
+                    <label for="department">Department</label><br>
+                    <select name="department" id="department">
+                        <option value="">Select Department</option>
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="ce">CE</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="studentid">Student ID</label><br>
+                    <input type="number" name="studentid" id="studentid" placeholder="Enter your student ID (If available)">
+                </div>
+                <div>
+                    <label for="semester">Semester</label><br>
+                    <select name="semester" id="semester">
+                        <option value="">Select Semester</option>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="others">others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="result">CGPA</label><br>
+                    <input type="number" name="result" id="result">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Account Information</legend>
+                <div>
+                    <label for="username">Username*</label><br>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" minlength="8" required><br>
+                    <label for="confirm-password">Confirm Password</label><br>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Skills and Interests</legend>
+                <div>
+                    <label for="languages">Programming Languages (Select Multiple)</label><br>
+                    <input type="checkbox" name="languages" id="c" value="C">
+                    <label for="c">C</label>
+                    <input type="checkbox" name="languages" id="cpp" value="Cpp">
+                    <label for="cpp">C++</label>
+                    <input type="checkbox" name="languages" id="java" value="Java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="languages" id="python" value="Python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="languages" id="javascript" value="Javascript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" name="languages" id="php" value="Php">
+                    <label for="php">PHP</label>
+                </div>
+                <div>
+                    <label for="interests">Interests</label><br>
+                    <select name="interests" id="interests" multiple size="4">
+                        <option value="Web development">Web Development</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                        <option value="Game Development">Game Development</option>
+                        <option value="Competitive Programming">Competitive Programming</option>
+                        <option value="Deep Learning">Deep Learning</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
