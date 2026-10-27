@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial';
+
+}
+.sporty {
+    color: red;
+}
+.casual {
+    color: blue;
+}
+.formal {
+    color: brown;
+}
+
+#container {
+    max-width: 600px;
+    margin: 100px;
+    padding: 20px auto;
+}
+
+.sporty, .casual {
+    font-size: 35px;
+}
+
+.formal-item p {
+    background: blue;
+}
