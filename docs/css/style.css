@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header h1 {
+    background-color: coral;
+    font-size: 30px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-menu {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    width: 300px;
+    text-align: center;
+}
+.main-menu a {
+    padding: 20px;
+    
+}
