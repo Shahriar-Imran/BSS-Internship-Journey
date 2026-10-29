@@ -24,13 +24,36 @@ ul {
 
 .main-menu {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     flex-direction: column;
     background-color: #f4f4f4;
     width: 300px;
-    
+    padding: 15px;
 }
-.main-menu a {
-    padding: 20px;
-    
+
+.main-menu a:hover {
+    color: coral;
+}
+
+.main-menu summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.submenu a {
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.submenu a:hover {
+    color: coral;
 }
