@@ -31,29 +31,35 @@ ul {
     padding: 15px;
 }
 
+.main-menu a {
+    display: block;
+}
+
 .main-menu a:hover {
-    color: coral;
+    background-color: coral;
 }
 
 .main-menu summary {
     list-style: none;
     cursor: pointer;
+    color: #333;
+}
+
+.main-menu summary:hover {
+    color: coral;
 }
 
 .submenu {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    padding-left: 15px;
-    margin-top: 10px;
+    gap: 15px;
+    padding: 15px;
 }
 .submenu a {
     display: block;
-    padding: 10px;
     background-color: #f4f4f4;
-    color: #333;
 }
 
 .submenu a:hover {
-    color: coral;
+    background-color: coral;
 }
