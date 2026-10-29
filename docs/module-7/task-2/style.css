@@ -31,6 +31,7 @@ li {
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 120px;
     padding: 70px 60px;
 }
 
@@ -61,10 +62,77 @@ li {
 }
 
 .card-pro h2{
-    background-color: linear-gradient(
+    background: linear-gradient(
     90deg,
     rgba(194, 227, 255, 1) 13%,
     rgba(180, 118, 254, 1) 100%
     );
     color: #fff;
+}
+.card-enterprise h2{
+    background: linear-gradient(
+    90deg,
+    rgba(255, 177, 194, 1) 13%,
+    rgba(255, 203, 114, 1) 100%
+    );
+    color: #fff;
+}
+
+.card .price {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card .price sup {
+    font-size: 18px;
+    margin-left: -5px;
+    position: relative;
+}
+
+.card .price span {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.card .price-info {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: #27264b;
+    border: 1px solid #27264b;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #27264b;
+    color: #fff;
+}
+
+.card-pro .btn {
+    background: #27264b;
+    color: #fff;
+}
+
+.card-pro .btn:hover {
+    background-color: #fff;
+    color: #27264b;
+}
+
+.card ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.card ul li i {
+    color: #98ca9e;
+    margin-right: 10px;
 }
