@@ -110,12 +110,38 @@ img {
     opacity: 0.8;
 }
 
+.footer {
+    border-top: 1px solid #aaa;
+    margin-top: 2rem;
+    padding: 2rem 1.5rem;
+}
+
+.footer .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    width: 120px;
+    height: 35px;
+}
+
+.footer h4 {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    margin: 0.2rem;
+}
+
 
 
 
 
 
 @media (max-width: 768px) {
+    .footer .footer-flex, 
     .header .header-flex {
         flex-direction: column;
         gap: 1.5rem;
@@ -131,5 +157,9 @@ img {
 
     .gallery-item {
         width: calc(50% - 20px);
+    }
+
+    .footer .footer-flex {
+        text-align: center;
     }
 }
