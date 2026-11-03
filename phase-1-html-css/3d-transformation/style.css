@@ -34,7 +34,7 @@ h1 {
 }
 
 .card:hover {
-    transform: rotateX(-180deg);
+    transform: rotateX(180deg);
 }
 
 .front {
